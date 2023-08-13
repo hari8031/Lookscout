@@ -7,7 +7,7 @@ This is a simple React application built using Vite, a fast build tool for moder
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-vite-react-app.git
+   https://github.com/hari8031/Lookscout.git
    cd your-vite-react-app
    ```
 
