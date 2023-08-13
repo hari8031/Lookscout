@@ -3,7 +3,7 @@ import { images } from "../../constants";
 import { AiOutlineMenu } from "react-icons/ai";
 const NavBar = () => {
   return (
-    <nav className=" bg-bgBlue flex justify-between p-[16px] lg:py-[20px] lg:px-[140px] text-[15px] font-semibold text-white ">
+    <nav className=" bg-bgBlue flex justify-between p-[16px] lg:py-[20px] lg:px-[140px] text-[15px] font-semibold text-white border-b-[1px] border-[#648EF7]">
       <div className="flex gap-[64px]">
         <img src={images.logo} alt="logo" />
         <ul className=" hidden lg:flex justify-center items-center gap-[32px]">

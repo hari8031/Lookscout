@@ -8,7 +8,7 @@ const Header = () => {
       <motion.div
         whileInView={{ y: [-100, 100, 0], opacity: [0, 1, 1] }}
         transition={{ duration: 2           }}
-        className="flex  flex-col-reverse justify-between items-center pt-[32px] pb-[64px]  px-[140px] lg:flex-row lg:gap-[104px]"
+        className="flex  flex-col-reverse justify-between items-center pb-[64px]  px-[140px] lg:flex-row lg:gap-[104px]"
       >
         <section className="w-[343px] flex flex-col sm:w-[624px] mt-[32px]   md:mt-[40px]  lg:mt-[80px] ">
           <section>
@@ -34,7 +34,7 @@ const Header = () => {
             </ul>
           </section>
         </section>
-        <section className="mt-[32px] w-[274px] sm:w-[448px]">
+        <section className="lg:mt-[32px] md:mt-[56px] mt-[32px] w-[274px] sm:w-[448px]">
           <img
             src={images.hero}
             alt=""

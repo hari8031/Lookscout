@@ -7,7 +7,7 @@ const Card = ({ icon, heading, description, link, card }) => {
       className={
         card
           ? `flex items-start gap-3 w-[327px] md:w-[704px] lg:w-[532px] mt-[24px] `
-          : "w-[327px] mt-[40px] lg:mt-[64px] md:w-[384px] mx-[32px]"
+          : "w-[327px] mt-[40px] lg:mt-[64px] md:w-[336px] mx-[32px]"
       }
     >
       <img src={icon} alt="" />

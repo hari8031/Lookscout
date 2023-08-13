@@ -17,7 +17,8 @@ export default {
         bgDark: "#151B28",
         bgLightGray: "#F8F9FB",
         bgLight: "#FAFBFC",
-        lineGray:"#2E3545"
+        lineGray:"#2E3545",
+        
       },
     },
   },
