@@ -18,9 +18,9 @@ const Features = () => {
     };
   }, []);
   return (
-    <section className="px-[140px] flex flex-col justify-center items-center mt-[124px] ">
+    <section className="px-[140px] flex flex-col justify-center items-center mt-[64px] ">
       <h1 className="text-[24px] md:text-[32px] font-bold text-center w-[343px] md:w-[700px]">Redefining Product Features</h1>
-      <p className="w-[343px]  md:w-[700px] lg:w-[800px] text-center mt-[16px] sm:[12px]">
+      <p className="w-[343px]  md:w-[700px] text-center mt-[16px] sm:[12px]">
         Keeping your eye on the ball while performing a deep dive on the
         start-up mentality to derive convergence on cross-platform integration.
       </p>
