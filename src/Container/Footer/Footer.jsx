@@ -51,7 +51,7 @@ const Footer = () => {
                 placeholder="Enter email..."
                 required
               />
-              <button className=" bg-btnBlue text-white font-semibold text-[15px] py-[12px] px-[18px] rounded-r-lg md:rounded-none w-[88px]">
+              <button className=" bg-btnBlue text-white font-semibold text-[15px] py-[12px] px-[18px] lg:rounded-r-lg md:rounded-none w-[88px]">
                 Submit
               </button>
             </div>
