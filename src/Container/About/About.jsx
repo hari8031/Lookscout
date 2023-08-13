@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <section className=" flex flex-col justify-center items-center mt-[124px] ">
+    <section className=" flex flex-col justify-center items-center mt-[64px] ">
       <h1 className="text-[24px] md:text-[32px] font-bold text-center w-[343px] md:w-[700px]">
         Messaging for all
       </h1>
