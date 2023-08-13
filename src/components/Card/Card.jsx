@@ -6,8 +6,8 @@ const Card = ({ icon, heading, description, link, card }) => {
     <div
       className={
         card
-          ? `flex items-start w-[327px ] w-[327px] gap-[16px] md:mt-[40px] md:w-[704px] lg:w-[532px] mt-[32px] flex-wrap`
-          : "w-[339px] mt-[40px] lg:mt-[64px] md:w-[384px] mx-[32px]"
+          ? `flex items-start gap-3 w-[327px] md:w-[704px] lg:w-[532px] mt-[24px] `
+          : "w-[327px] mt-[40px] lg:mt-[64px] md:w-[384px] mx-[32px]"
       }
     >
       <img src={icon} alt="" />

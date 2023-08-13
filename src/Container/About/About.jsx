@@ -5,16 +5,16 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <section className="flex justify-center items-center flex-col p-[40px]">
-      <div>
-        <h1 className="text-3xl font-bold text-center ">Messaging for all</h1>
-        <p className="mt-[16px] text-pTextLightColor text-base text-center">
-          User generated content in real-time will have multiple touchpoints for
-          offshoring.
-        </p>
-      </div>
-      <div className="flex">
-        <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+    <section className=" flex flex-col justify-center items-center mt-[124px] ">
+      <h1 className="text-[24px] md:text-[32px] font-bold text-center w-[343px] md:w-[700px]">
+        Messaging for all
+      </h1>
+      <p className="w-[343px]  md:w-[700px] lg:w-[800px] text-center mt-[16px] sm:[12px]">
+        User generated content in real-time will have multiple touchpoints for
+        offshoring.
+      </p>
+      <div className=" flex justify-center items-center mt-[40px]  flex-col-reverse lg:flex-row lg:gap-[124px] lg:mt-[64px]">
+        <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {aboutData.data.map((item, index) => (
             <Card
               key={index}
