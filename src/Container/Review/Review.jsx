@@ -5,10 +5,10 @@ const Review = () => {
   return (
     <>
       <section className="flex justify-center items-center flex-col lg:my-0 md:mx-[32px] md:my-[40px] mx-[16px] my-[32px]">
-        <h2 className="lg:hidden block md:text-[32px] font-semibold text-center text-[22px]">
+        <h2 className="lg:hidden block md:text-[32px] text-center text-[22px] font-bold">
           What Our Customers Say
         </h2>
-        <p className="lg:hidden block text-center text-[16px] text-pTextLightColor">
+        <p className="lg:hidden block text-center text-[16px] text-pTextLightColor mt-[16px]">
           Organically grow the holistic world view of dis ruptive innovation via
           workplace diversity and empowerment. Bring to the table win-win
           strategies to ensure domination.

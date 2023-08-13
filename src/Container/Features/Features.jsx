@@ -40,7 +40,7 @@ const Features = () => {
         <img
           src={isMediumScreen ? images.featureHero2 : images.featureHero}
           alt=""
-          className=" "
+          className=""
         />
       </div>
     </section>

@@ -4,7 +4,7 @@ import Card from "../../components/Card/Card";
 
 const About = () => {
   return (
-    <section className=" flex flex-col justify-center items-center mt-[64px] ">
+    <section className=" flex flex-col justify-center items-center md:mt-[64px] mt-[32px] ">
       <h1 className="text-[24px] md:text-[32px] font-bold text-center w-[343px] md:w-[700px]">
         Messaging for all
       </h1>
@@ -12,7 +12,7 @@ const About = () => {
         User generated content in real-time will have multiple touchpoints for
         offshoring.
       </p>
-      <div className=" flex justify-center items-center mt-[40px]  flex-col-reverse lg:flex-row lg:gap-[124px] lg:mt-0">
+      <div className=" flex justify-center items-centerflex-col-reverse lg:flex-row lg:gap-[124px]">
         <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {aboutData.data.map((item, index) => (
             <Card

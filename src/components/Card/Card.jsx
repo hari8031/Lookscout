@@ -26,8 +26,8 @@ const Card = ({ icon, heading, description, link, card }) => {
           href=""
           className={
             card
-              ? `flex items-center text-btnBlue mt-[12px]`
-              : "flex items-center text-btnBlue mt-[16px]"
+              ? `flex items-center text-btnBlue mt-[12px] font-semibold`
+              : "flex items-center text-btnBlue mt-[16px] font-semibold"
           }
         >
           {link} <AiOutlineArrowRight className="ml-3 text-btnBlue" />

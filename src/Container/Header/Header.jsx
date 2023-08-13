@@ -20,13 +20,13 @@ const Header = () => {
               expectations. We have not reinvented the wheel, we decided to
               build upon it.
             </p>
-            <button className=" bg-btnBlue rounded-lg px-[18px] py-[12px] text-[15px] font-semibold text-white mt-[32px]">
+            <button className=" bg-btnBlue rounded-lg px-[18px] py-[12px] text-[15px] font-semibold text-white mt-[32px] w-full md:w-[120px]">
               Get Started
             </button>
           </section>
           <section className="mt-[32px] md:mt-[80px]">
-            <h6 className=" font-medium text-white">Who supports us</h6>
-            <ul className="flex flex-wrap gap-[16px] md:flex-nowrap">
+            <h6 className=" font-normal text-white mb-[16px]">Who supports us</h6>
+            <ul className="flex flex-wrap gap-[16px] md:flex-nowrap justify-center">
               <img src={images.gitlab} alt="gitlab" />
               <img src={images.slack} alt="slack" />
               <img src={images.netflix} alt="netflix" />

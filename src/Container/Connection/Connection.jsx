@@ -3,8 +3,8 @@ import { images } from "../../constants";
 
 const Connection = () => {
   return (
-    <section className=" flex flex-col items-center mx-[32px] mt-[64px]">
-      <h1 className="text-[24px] font-bold">Proud to Be Used By</h1>
+    <section className=" flex flex-col items-center mx-[32px] mt-[64px] ">
+      <h1 className="text-[32px] font-bold">Proud to Be Used By</h1>
       <p className="text-[16px] text-pTextLightColor mt-[12px] lg:w-[800px] text-center">
         Professionally cultivate one-to-one customer service with robust ideas.
         Dynamically innovate resource-leveling customer service for state of the

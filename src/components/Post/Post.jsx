@@ -10,8 +10,8 @@ const Post = ({
   profileImage,
 }) => {
   return (
-    <li className=" flex flex-col justify-start px-[32px] mt-[32px] w-[380px] h-[418px] md:h-[554px]">
-      <img src={blogImage} alt="" />
+    <li className=" flex flex-col justify-start px-[32px] mt-[32px] w-[380px] h-[418px] md:h-[554px] md:mt-0">
+      <img src={blogImage} alt="" className="" />
       <h5 className="text-2xl font-bold mt-[24px]">{heading}</h5>
       <p className="mt-[16px] text-pTextLightColor">{description}</p>
       <div className="flex items-center justify-between mt-[40px]">
