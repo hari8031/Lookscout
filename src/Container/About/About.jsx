@@ -1,7 +1,6 @@
 import React from "react";
 import { aboutData } from "../../constants";
 import Card from "../../components/Card/Card";
-import { motion } from "framer-motion";
 
 const About = () => {
   return (
@@ -13,7 +12,7 @@ const About = () => {
         User generated content in real-time will have multiple touchpoints for
         offshoring.
       </p>
-      <div className=" flex justify-center items-center mt-[40px]  flex-col-reverse lg:flex-row lg:gap-[124px] lg:mt-[64px]">
+      <div className=" flex justify-center items-center mt-[40px]  flex-col-reverse lg:flex-row lg:gap-[124px] lg:mt-0">
         <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {aboutData.data.map((item, index) => (
             <Card
